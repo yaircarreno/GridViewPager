@@ -1,4 +1,4 @@
-This repo contains an example of patron UI 2D Pager using GridViewPager, GridPagerAdapter, FragmentGridPagerAdapter, DotsPageIndicator.
+This repo contains an example of pattern UI 2D Pager using GridViewPager, GridPagerAdapter, FragmentGridPagerAdapter, DotsPageIndicator.
 
 It was developed with Android Studio.
 
