@@ -7,3 +7,5 @@ Este repositorio contiene un ejemplo de un patron UI de navegación 2D usado en 
 Fué implementado con Android Studio.
 
 You can see my blog for more information: http://www.yaircarreno.com/
+
+![ScreenShot](https://github.com/yaircarreno/GridViewPager/blob/master/screenshot/StoryWear.gif)
