@@ -1,5 +1,28 @@
 <resources>
     <string name="app_name">GridViewPager</string>
-    <string name="hello_round">Hello Round World!</string>
-    <string name="hello_square">Hello Square World!</string>
+    <string name="welcome_title">Star Wars</string>
+    <string name="welcome_text">A long time ago in a galaxy far</string>
+
+    <string name="dark_title">Dark side</string>
+    <string name="dark_text_1">Trooper</string>
+    <string name="dark_text_2">Darth Vader</string>
+
+    <string name="light_title">Light side</string>
+    <string name="light_text_1">Rey</string>
+    <string name="light_text_2">Yoda</string>
+    <string name="light_text_3">BB-8</string>
+
+    <string name="expansion_title">Expansion</string>
+    <string name="expansion_text">By default, each card will grow taller to accommodate extra content. Tall cards can be scrolled through like any scrollable view. The maximum height is controlled by setExpansionFactor() with a default of 10 pages. After that you\'ll notice a faded edge to indicate there is more. Expansion can be disabled completely using setExpansionEnabled(false). With this, the content will be clipped if it\'s taller than one page.</string>
+
+    <string name="backgrounds_title">Yoda</string>
+    <string name="backgrounds_text">Text</string>
+
+    <string name="columns_title">Columns</string>
+    <string name="columns_text">When moving between rows, the pager always returns to column 0. This is adjustable in the adapter. See method getCurrentColumnForRow().</string>
+
+    <string name="dismiss_title">Dismiss</string>
+    <string name="dismiss_text">To exit the application, swipe from left to right.</string>
+    <string name="custom_fragment_text">"GridViewPager will accept any fragment. This is an example of a custom fragment with it's own background."</string>
+
 </resources>

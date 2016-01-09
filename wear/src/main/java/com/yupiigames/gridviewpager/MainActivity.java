@@ -2,12 +2,13 @@ package com.yupiigames.gridviewpager;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.wearable.view.DotsPageIndicator;
+import android.support.wearable.view.GridViewPager;
 import android.support.wearable.view.WatchViewStub;
-import android.widget.TextView;
-
 public class MainActivity extends Activity {
 
-    private TextView mTextView;
+    private GridViewPager pager;
+    private DotsPageIndicator dotsPageIndicator;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +18,10 @@ public class MainActivity extends Activity {
         stub.setOnLayoutInflatedListener(new WatchViewStub.OnLayoutInflatedListener() {
             @Override
             public void onLayoutInflated(WatchViewStub stub) {
-                mTextView = (TextView) stub.findViewById(R.id.text);
+                pager = (GridViewPager) stub.findViewById(R.id.pager);
+                dotsPageIndicator = (DotsPageIndicator) stub.findViewById(R.id.page_indicator);
+                pager.setAdapter(new GridAdapter(getBaseContext(), getFragmentManager()));
+                dotsPageIndicator.setPager(pager);
             }
         });
     }
